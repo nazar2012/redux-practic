@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "React",
+        "description": "Вивчаємо компоненти та props"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript",
+        "description": "Працюємо з масивами та об'єктами"
+    },
+    {
+        "id": 3,
+        "title": "HTML",
+        "description": "Створюємо структуру сторінки"
+    }
+]
