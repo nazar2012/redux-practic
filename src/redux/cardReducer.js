@@ -1,6 +1,7 @@
 import cards from "../data/card.json"
+const savedCards = localStorage.getItem("cards")
 
-const initialState = cards
+const initialState = savedCards ? JSON.parse(savedCards): cards
 
 const cardReducer = (state = initialState, actions) => {
     switch (actions.type) {
